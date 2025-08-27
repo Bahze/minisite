@@ -1,0 +1,40 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {    
+    display: flex;
+    justify-content: center;
+    gap:1rem;  
+    
+    margin-bottom: 2rem;
+    @media screen and (max-width: 600px){ flex-direction: column;
+        
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    
+    @media screen and (max-width: 600px){ flex-direction: column;}
+    a:hover{
+        font-size: 2rem;
+    }
+}
+button {
+    background-color: darkblue;
+    color: aliceblue;
+  
+
+}
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+
+
+
+
